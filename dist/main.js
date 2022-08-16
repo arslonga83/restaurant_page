@@ -1,1 +1,1 @@
-alert("this is a test");
+(()=>{"use strict";alert("this is a test"),alert("this is also a test")})();
