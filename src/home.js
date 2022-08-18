@@ -16,6 +16,7 @@ export function loadHeader() {
     const btn1 = nav.appendChild(document.createElement('button'));
     btn1.id = 'home';
     btn1.innerHTML = 'HOME';
+    btn1.style.color = 'red';
     const btn2 = nav.appendChild(document.createElement('button'));
     btn2.id = 'menu';
     btn2.innerHTML = 'MENU';
@@ -32,16 +33,19 @@ export function loadMain() {
 
     const main = document.getElementById('main');
     main.innerHTML = '';
-    const img = main.appendChild(document.createElement('img'));
+    const mainContent = document.createElement('div');
+    mainContent.id = 'mainContent';
+    const img = mainContent.appendChild(document.createElement('img'));
     img.src = '../src/shaian-ramesht-exSEmuA7R7k-unsplash.jpg';
     img.alt = 'pizza';
     
-    const text = main.appendChild(document.createElement('div'));
+    const text = mainContent.appendChild(document.createElement('div'));
     text.classList.add('text');
     const p1 = text.appendChild(document.createElement('p'));
     const p2 = text.appendChild(document.createElement('p'));
     p1.innerHTML = 'The best vegan pies in Tigard are definitely the ones you make yourself. We\'ve been perfecting our technique since we first bought a pizza stone, and still have a good track record of not dropping dough on the floor (except for the toddler!) Farm fresh tomatoes and basil from the garden make our pizza pretty much the perfect food.';
     p2.innerHTML = 'We are not a real restaurant, and are <strong>not</strong> open to the public, but it\'s fun to pretend!'
-
+    
+    main.appendChild(mainContent);
     content.appendChild(main);
 };
