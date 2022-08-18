@@ -92,3 +92,13 @@ div.contactSection p {
 div.contactSection h1 {
     font-size: 36px;
 }
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 48px;
+}
+
+
+

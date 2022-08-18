@@ -54,5 +54,13 @@ export function loadMain() {
     p2.innerHTML = 'We are not a real restaurant, and are <strong>not</strong> open to the public, but it\'s fun to pretend!'
     
     main.appendChild(mainContent);
-    content.appendChild(main);
 };
+
+export function loadFooter() {
+    const footer = document.createElement('div');
+    footer.id = 'footer';
+    const footerText = document.createElement('h4');
+    footerText.innerHTML = 'Copyright ©2022 Arlonga83';
+    footer.appendChild(footerText);
+    content.appendChild(footer);
+}

@@ -10,6 +10,7 @@ loadHeader();
 loadMain();
 loadFooter();
 
+
 const menuBtn = document.getElementById('menu');
 menuBtn.addEventListener('click', () => {
     menuBtn.style.color = 'red';

@@ -47,7 +47,7 @@ export function loadMenu() {
 
 
     main.appendChild(menu);
-    content.appendChild(main);
+    //content.appendChild(main);
 }
 
 
