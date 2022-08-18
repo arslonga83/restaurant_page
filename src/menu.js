@@ -1,7 +1,5 @@
 export function loadMenu() {
-    alert('this is a test for menu page');
-
     const main = document.getElementById('main');
-    main.innerHTML = '';
+    main.innerHTML = 'MENU PAGE';
     main.appendChild(document.createElement('div'))
 }
