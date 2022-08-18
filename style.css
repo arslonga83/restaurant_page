@@ -10,14 +10,14 @@ body {
     background-image: linear-gradient(lightgray, gray);
 }
 
-#header {
+div.header {
     text-align: center;
     padding-top: 24px;
     font-size: 36px;
     display: grid;
 }
 
-#nav {
+div.nav {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -31,7 +31,7 @@ button {
     font-size: 24px;
 }
 
-#main {
+div.main {
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
@@ -41,7 +41,7 @@ img {
     margin: 24px;
 }
 
-#text {
+div.text {
     margin-top: 8px;
     padding-left: 24px;
     font-size: 24px;
