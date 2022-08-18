@@ -8,7 +8,7 @@ export function loadMenu() {
     menu.appendChild(menuHeader('PIZZA'));
     
     const img = menu.appendChild(document.createElement('img'));
-    img.src = '../src/ivan-torres-MQUqbmszGGM-unsplash.jpg';
+    img.src = '../src/img/ivan-torres-MQUqbmszGGM-unsplash.jpg';
     img.classList.add('menuImg');
     img.alt = 'pizza';
     
@@ -35,7 +35,7 @@ export function loadMenu() {
     menu.appendChild(menuHeader('SALAD'));
 
     const img2 = menu.appendChild(document.createElement('img'));
-    img2.src = '../src/anna-pelzer-IGfIGP5ONV0-unsplash.jpg';
+    img2.src = '../src/img/anna-pelzer-IGfIGP5ONV0-unsplash.jpg';
     img2.classList.add('menuImg');
     img2.alt = 'salad';
 
@@ -51,7 +51,7 @@ export function loadMenu() {
     menu.appendChild(menuHeader('DRINKS'));
 
     const img3 = menu.appendChild(document.createElement('img'));
-    img3.src = '../src/josh-olalde--Ygu9Qx309s-unsplash.jpg';
+    img3.src = '../src/img/josh-olalde--Ygu9Qx309s-unsplash.jpg';
     img3.classList.add('menuImg');
     img3.alt = 'beer';
 

@@ -30,7 +30,6 @@ export function loadHeader() {
 
     content.appendChild(top);
 
-
     const main = document.createElement('div');
     main.id = 'main';
     content.appendChild(main);
@@ -43,7 +42,7 @@ export function loadMain() {
     const mainContent = document.createElement('div');
     mainContent.id = 'mainContent';
     const img = mainContent.appendChild(document.createElement('img'));
-    img.src = '../src/shaian-ramesht-exSEmuA7R7k-unsplash.jpg';
+    img.src = '../src/img/shaian-ramesht-exSEmuA7R7k-unsplash.jpg';
     img.alt = 'pizza';
     
     const text = mainContent.appendChild(document.createElement('div'));
