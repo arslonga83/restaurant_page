@@ -5,9 +5,16 @@
 
 body {
     display: grid;
-    height: 100%;
+    min-height: 100vh;
     padding: 8px;
     background-image: linear-gradient(lightgray, gray);
+}
+
+#top {
+    background: lightslategray;
+    position: sticky;
+    top: 0px;
+    margin: -8px;
 }
 
 div.header {
@@ -15,13 +22,14 @@ div.header {
     padding-top: 24px;
     font-size: 36px;
     display: grid;
+    background: lightslategray;
 }
 
 div.nav {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 16px;
+    padding: 16px;
 }
 
 button {
@@ -30,6 +38,7 @@ button {
     color: white;
     font-size: 24px;
 }
+
 
 #mainContent {
     display: grid;
@@ -57,7 +66,7 @@ div.menuSection {
 
 h1.menuHeader {
     font-size: 48px;
-    padding-top: 16px;
+    padding-top: 36px;
 }
 
 h2.item {
@@ -67,4 +76,19 @@ h2.item {
 
 p.menuDesc {
     font-size: 24px;
+}
+
+div.contactSection {
+    margin-top: 48px;
+    display: grid;
+    text-align: center;
+    gap: 8px;
+}
+
+div.contactSection p {
+    font-size: 24px;
+}
+
+div.contactSection h1 {
+    font-size: 36px;
 }
