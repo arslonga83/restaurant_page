@@ -1,6 +1,8 @@
-import {test} from "./home.js";
+import {test, load} from "./home.js";
 
-alert('this is a test');
+//alert('this is a test');
 
-test();
+//test();
+
+load();
 
