@@ -2,27 +2,36 @@ export function test() {
     alert('this is also a test');
 }
 
-export function load() {
+export function loadHeader() {
     const content = document.getElementById('content');
    
     const header = document.createElement('div');
     header.classList.add('header');
-    const h1 = header.appendChild(document.createElement('h1'))
+    const h1 = header.appendChild(document.createElement('h1'));
     h1.textContent = 'Jeff\'s Pizza Kitchen';
     content.appendChild(header);
 
     const nav = document.createElement('div');
     nav.classList.add('nav');
     const btn1 = nav.appendChild(document.createElement('button'));
+    btn1.id = 'home';
     btn1.innerHTML = 'HOME';
     const btn2 = nav.appendChild(document.createElement('button'));
+    btn2.id = 'menu';
     btn2.innerHTML = 'MENU';
     const btn3 = nav.appendChild(document.createElement('button'));
+    btn3.id = 'contact'
     btn3.innerHTML = 'CONTACT';
     content.appendChild(nav);
-
     const main = document.createElement('div');
-    main.classList.add('main');
+    main.id = 'main';
+    content.appendChild(main);
+}
+
+export function loadMain() {
+
+    const main = document.getElementById('main');
+    main.innerHTML = '';
     const img = main.appendChild(document.createElement('img'));
     img.src = '../src/shaian-ramesht-exSEmuA7R7k-unsplash.jpg';
     img.alt = 'pizza';
