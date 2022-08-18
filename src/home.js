@@ -47,8 +47,10 @@ export function loadMain() {
     
     const text = mainContent.appendChild(document.createElement('div'));
     text.classList.add('text');
+    const h1 = text.appendChild(document.createElement('h1'));
     const p1 = text.appendChild(document.createElement('p'));
     const p2 = text.appendChild(document.createElement('p'));
+    h1.innerHTML = 'Home Cooking'
     p1.innerHTML = 'The best vegan pies in Tigard are definitely the ones you make yourself. We\'ve been perfecting our technique since we first bought a pizza stone, and still have a good track record of not dropping dough on the floor (except for the toddler!) Farm fresh tomatoes and basil from the garden make our pizza pretty much the perfect food.';
     p2.innerHTML = 'We are not a real restaurant, and are <strong>not</strong> open to the public, but it\'s fun to pretend!'
     
