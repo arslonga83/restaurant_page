@@ -1,4 +1,4 @@
-import {test, loadHeader, loadMain} from "./home.js";
+import {test, loadHeader, loadMain, loadFooter} from "./home.js";
 import {loadMenu} from "./menu.js";
 import {loadContact} from "./contact.js";
 
@@ -8,6 +8,7 @@ import {loadContact} from "./contact.js";
 
 loadHeader();
 loadMain();
+loadFooter();
 
 const menuBtn = document.getElementById('menu');
 menuBtn.addEventListener('click', () => {

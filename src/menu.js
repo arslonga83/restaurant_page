@@ -5,7 +5,7 @@ export function loadMenu() {
     const menu = document.createElement('div');
     menu.classList.add('menuSection');
 
-    menu.appendChild(menuHeader('PIZZAS'));
+    menu.appendChild(menuHeader('PIZZA'));
     
     //maybe add images to each? menu.appendChild(menuImg());
     menu.appendChild(menuItem('Fresh Tomato and Basil'));
@@ -28,16 +28,24 @@ export function loadMenu() {
         'Morningstar Not-Chicken Nuggets, artichoke hearts, sauce, vegan cheese'
     ))
 
-    menu.appendChild(menuHeader('SALADS'));
+    menu.appendChild(menuHeader('SALAD'));
 
-    //ADD SALADS HERE
+    menu.appendChild(menuItem('Bag \'o Salad'));
+    menu.appendChild(menuDesc('Safeway\'s finest salad in a bag mix, with crunchy bits and dressing included'));
+
+    menu.appendChild(menuItem('Cucumber Salad'));
+    menu.appendChild(menuDesc('Lemon cucumbers from the garden, sprinkled with salt (only available in summer'));
+
+    menu.appendChild(menuItem('Corn and Tomato Salad'));
+    menu.appendChild(menuDesc('Tomatoes from the garden and corn off the cob mixed with a simple vinagrette'));
 
     menu.appendChild(menuHeader('DRINKS'));
 
-    //ADD DRINKS HERE
+    menu.appendChild(menuItem('Water'));
+    menu.appendChild(menuItem('Seltzer'));
+    menu.appendChild(menuItem('Beer'));
 
 
-    
     main.appendChild(menu);
     content.appendChild(main);
 }
