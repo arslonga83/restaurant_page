@@ -69,6 +69,10 @@ h1.menuHeader {
     padding-top: 36px;
 }
 
+img.menuImg {
+    margin-left: 0px;
+}
+
 h2.item {
     padding-top: 24px;
     font-size: 32px;
@@ -81,6 +85,7 @@ p.menuDesc {
 div.contactSection {
     margin-top: 48px;
     display: grid;
+    justify-content: center;
     text-align: center;
     gap: 8px;
 }

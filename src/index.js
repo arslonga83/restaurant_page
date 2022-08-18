@@ -1,15 +1,10 @@
-import {test, loadHeader, loadMain, loadFooter} from "./home.js";
+import {loadHeader, loadMain, loadFooter} from "./home.js";
 import {loadMenu} from "./menu.js";
 import {loadContact} from "./contact.js";
-
-//alert('this is a test');
-
-//test();
 
 loadHeader();
 loadMain();
 loadFooter();
-
 
 const menuBtn = document.getElementById('menu');
 menuBtn.addEventListener('click', () => {

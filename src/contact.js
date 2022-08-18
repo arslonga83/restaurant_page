@@ -14,7 +14,10 @@ export function loadContact() {
     const address = contact.appendChild(document.createElement('p'));
     address.innerHTML = '123 P Street, Pietown'
 
+    const img = contact.appendChild(document.createElement('img'));
+    img.src = '../src/nik-owens-40OJLYVWeeM-unsplash.jpg';
+    img.classList.add('contactImg');
+    img.alt = 'pizza';
+
     main.appendChild(contact);
-   // content.appendChild(main);
-  
 }
