@@ -19,7 +19,7 @@ export function loadHeader() {
     const btn1 = nav.appendChild(document.createElement('button'));
     btn1.id = 'home';
     btn1.innerHTML = 'HOME';
-    btn1.style.color = 'red';
+    btn1.style.backgroundColor = 'lightGrey';
     const btn2 = nav.appendChild(document.createElement('button'));
     btn2.id = 'menu';
     btn2.innerHTML = 'MENU';
