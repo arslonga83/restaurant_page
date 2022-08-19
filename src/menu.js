@@ -43,7 +43,7 @@ export function loadMenu() {
     menu.appendChild(menuDesc('Safeway\'s finest salad in a bag mix, with crunchy bits and dressing included'));
 
     menu.appendChild(menuItem('Cucumber Salad'));
-    menu.appendChild(menuDesc('Lemon cucumbers from the garden, sprinkled with salt (only available in summer'));
+    menu.appendChild(menuDesc('Lemon cucumbers from the garden, sprinkled with salt (only available in summer)'));
 
     menu.appendChild(menuItem('Corn and Tomato Salad'));
     menu.appendChild(menuDesc('Tomatoes from the garden and corn off the cob mixed with a simple vinagrette'));
