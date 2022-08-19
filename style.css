@@ -29,14 +29,16 @@ div.nav {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 16px;
+    padding-top: 16px;
 }
 
 button {
     padding: 8px;
-    background-color: black;
-    color: white;
+    background-color: lightslategray;
+    color: black;
     font-size: 24px;
+    border-style: none;
+    border-radius: 5px 5px 0 0;
 }
 
 
@@ -48,6 +50,7 @@ button {
 img {
     width: 300px;
     margin: 24px;
+    border-radius: 5px;
 }
 
 div.text {
