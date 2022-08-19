@@ -42,6 +42,7 @@ export function loadMain() {
     const mainContent = document.createElement('div');
     mainContent.id = 'mainContent';
     const img = mainContent.appendChild(document.createElement('img'));
+    img.classList.add('homeImg');
     img.src = '../src/img/shaian-ramesht-exSEmuA7R7k-unsplash.jpg';
     img.alt = 'pizza';
     
