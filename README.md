@@ -1,1 +1,3 @@
 # restaurant_page
+
+Another Odin Project....the main goal here was to try a workflow using ES6 Modules and Webpack. It was definitely a challenge to get everything up and running but at a certain point it clicked. I feel good about the code in the menu section - the helper functions make it clean to read and I think it would be pretty easy to update menu items over time. Building the buttons to look like tabs was fun too. I'm not happy with how slow the images are loading but I decided to stop for now and move on to other things...it looks like I can include image compression in a Webpack workflow once I'm more comfortable with all of this....
